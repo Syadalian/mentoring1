@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <h2>JSON</h2>
+    </head>
+
+    <body>
+        <section>
+            <div></div>
+
+        </section>
+    </body>
+    <script>
+        fetch("./object.json")
+        .then((result) => result.json())
+        .then((res) => {
+            console.log(res);
+        });
+    </script>
+</html>
